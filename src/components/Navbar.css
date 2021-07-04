@@ -1,0 +1,82 @@
+.megasubmenu {
+  padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .megasubmenu {
+    left: 100%;
+    top: 0;
+    min-height: 100%;
+    min-width: 500px;
+  }
+
+  .dropdown-menu > li:hover .megasubmenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  margin-left: 30px;
+}
+.bg-light {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+}
+.nav-item {
+  margin-left: 15px;
+  font-weight: 500;
+  padding: 10px;
+}
+.dropdown-menu {
+  top: 60px;
+  background-color: #e3e3e3;
+  height: 80vh;
+  min-width: 14rem;
+}
+.dropdown-item {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 25px;
+}
+.megasubmenu {
+  top: -1px;
+  background-color: #fff;
+  padding: 35px;
+  min-width: 30rem;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #fff;
+}
+.submenu-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-weight: normal;
+  line-height: 40px;
+}
+.title {
+  font-size: 20px;
+}
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu:hover {
+  display: block;
+}
+.navbar {
+  padding: 0px;
+}
+.ms-Button-menuIcon {
+  display: none;
+}
+.ms-TextField {
+  width: 250px;
+}
+.ms-Nav-list {
+  height: 330px;
+}
