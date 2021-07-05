@@ -1,6 +1,3 @@
-.megasubmenu {
-  padding: 1rem;
-}
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
@@ -10,8 +7,10 @@
     min-height: 100%;
     min-width: 500px;
   }
-
-  .dropdown-menu > li:hover .megasubmenu {
+  .nav-item:hover .dropdown-menu:nth-child(0) {
+    display: inline-block;
+  }
+  .dropdown-menu > li:hover .megasubmenu{
     display: block;
   }
 }
@@ -58,15 +57,6 @@
 }
 .title {
   font-size: 20px;
-}
-.navbar .nav-item .dropdown-menu {
-  display: none;
-}
-.navbar .nav-item:hover .dropdown-menu {
-  display: block;
-}
-.dropdown-menu:hover {
-  display: block;
 }
 .navbar {
   padding: 0px;
