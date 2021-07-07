@@ -1,0 +1,31 @@
+.divider {
+  height: 87vh;
+  width: 2px;
+  background-color: rgb(204, 204, 204);
+  margin: 10px;
+}
+.divider-horizontal {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(204, 204, 204);
+  /* margin: 5px;  */
+}
+.count-icon {
+  background-color: #585A96;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 46px;
+  padding: 4px 9px;
+  margin: 10px;
+}
+.ui-menu {
+  margin-left: 35px !important;
+}
+.ui-menu li {
+  width: 12rem;
+}
+.tree {
+  height: 300px;
+  margin-top: 20px;
+  overflow: auto;
+}
